@@ -716,16 +716,17 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-gallery-list li a .case-studies-summary span {
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 13px;
+  font-size: 15px;
   color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-gallery-list li a .case-studies-summary h2 {
   color: #fff;
   margin-bottom: 0;
+  font-size: 20px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-gallery-list li a .case-studies-summary h2 {
-    font-size: 20px;
+    font-size: 10px;
   }
 }
 #fh5co-gallery-list li.one-third {
@@ -733,7 +734,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-gallery-list li.one-third {
-    width: 49%;
+    width: 45%;
   }
 }
 @media screen and (max-width: 480px) {
