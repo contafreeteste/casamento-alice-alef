@@ -1341,7 +1341,7 @@ form label {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgb(255 251 251 / 40%);
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
