@@ -115,7 +115,7 @@
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Alice &amp; Alef</h1>
 							<h2>Vamos nos casar</h2>
-							<div class="simply-countdown simply-countdown-one"></div>
+						<div class="simply-countdown simply-countdown-one"></div>
 							<!-- <p><a href="#" class="btn btn-default btn-sm">Save the date</a></p> -->
 							<p><a href="https://sites.wedy.com/alef-e-alice/confirmacao-de-presenca" class="popup-vimeo btn btn-default btn-sm">Confirmar Presença</a></p>
 						</div>
@@ -492,7 +492,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img-presentes/X.jpg); ">
+						<li class="one-third animate-box disable" data-animate-effect="fadeIn" style="background-image: url(images/img-presentes/X.jpg); ">
 							<a href="https://sites.wedy.com/alef-e-alice/checkout?gifts%5B0%5D%5Buuid%5D=982d6cb3-32f1-4db9-99ee-9aa8e54f5525&gifts%5B0%5D%5Bname%5D=Teste&gifts%5B0%5D%5Bimage%5D=https%3A%2F%2Fwedy-next.s3.sa-east-1.amazonaws.com%2Fwedy-v2-MjAyNS0xMS0wNFQwMDozOToyMC45NTBaLzI2Ni8yNjQvI2U4ZThlOC9xcmNvZGVwaXguanBlZw%3D%3D.jpeg&gifts%5B0%5D%5Bquotas%5D=1&gifts%5B0%5D%5Bquotas_remaining%5D=2&gifts%5B0%5D%5Bquota_value%5D=1.07&gifts%5B0%5D%5Btotal_value%5D=1.07" class="popup-vimeo">
 								<div class="case-studies-summary">
 									<span>R$1.07</span>
@@ -875,7 +875,7 @@
 
 	<script>
     
-	var d = new Date('2026-05-16 16:00:00');
+	var d = new Date('2026-05-16 15:30:00');
 
     // default example
     simplyCountdown('.simply-countdown-one', {
@@ -883,6 +883,7 @@
         month: d.getMonth() + 1,
         day: d.getDate(),
 		hours: d.getHours(),
+		minutes: d.getMinutes(),
 		enableUtc: false
     });
 
@@ -892,6 +893,7 @@
         month: d.getMonth() + 1,
         day: d.getDate(),
 		hours: d.getHours(),
+		minutes: d.getMinutes(),
         enableUtc: false
     });
 
